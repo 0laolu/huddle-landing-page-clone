@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text p {
+    color: hsl(0, 0%, 89%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.call-to-action {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fab {
+    color: hsl(0, 0%, 89%);
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url("images/bg-mobile.svg");
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        margin: 0 1rem;
+        padding: 1.7rem 0.7rem 0 0.7rem;
+    }
+
+    .header-logo {
+        width: 40%;
+    }
+
+    .about-section {
+        margin-top: 2.7rem;
+    }
+
+    .about-text {
+        margin-top: 2.8rem;
+        text-align: center;
+        margin: 2.7rem auto;
+        width: 15.5rem;
+    }
+
+    .about-text h2 {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        letter-spacing: 0.08rem;
+    }
+
+    .about-text p {
+        color: hsl(0, 0%, 89%);
+        font-size: 0.83rem;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.9rem;
+    }
+
+    .call-to-action {
+        background-color: white;
+        color: hsl(257, 40%, 49%);
+        margin-top: 1.2rem;
+        padding: 0.65rem 3.85rem;
+        border: 1px solid white;
+        border-radius: 37px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    }
+
+    footer {
+        margin: 3.3rem 0 2rem 0;
+    }
+
+    .brand-logo {
+        display: flex;
+        justify-content: space-between;
+        width: 7rem;
+        margin: 0 auto;
+    }
+
+    .fab {
+        font-size: 0.8rem;
+        padding: 0.45rem 0.5rem;
+        border: 1px solid hsl(0, 0%, 89%);
+    }
+
+}
+
+    @media screen and (min-width: 767px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+           background-image: url("images/bg-desktop.svg");
+           background-size: contain;
+        }
+
+        .container {
+            margin: 2.5rem 4rem 0 4rem;
+        }
+
+        .header-logo {
+            margin-bottom: 4.9rem;
+        }
+
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .about-section img {
+            width: 830px;
+        }
+
+        .about-text {
+            position: relative;
+            top: 50px;
+            left: 60px;
+        } 
+
+        .about-text h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5em;
+            width: 27rem;
+            letter-spacing: 0.05em;
+            line-height: 1.8;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            width: 29rem;
+        }
+
+        .call-to-action {
+            background-color: hsl(300, 69%, 71%);
+            color: hsl(0, 0%, 91%);
+            font-size: 1rem;
+            padding: .85em 3.6em;
+            cursor: pointer;
+            border: 1px solid hsl(300, 69%, 71%);
+            border-radius: 40px;
+            box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.37);
+            outline: none;
+        }
+
+        footer {
+            padding: 2rem 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .brand-logo {
+            width: 10rem;
+            display: flex;
+            justify-content: space-around;
+        } 
+
+        .fab {
+            font-size: 1.2rem;
+            padding: 0.55rem 0.6rem;
+            border: 1px solid hsl(0, 0%, 89%);
+        }
+
+        .fab:hover {
+            color: magenta;
+            border: 1px solid magenta;
+            cursor: pointer;
+        }
+}
