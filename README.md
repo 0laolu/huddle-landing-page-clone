@@ -2,4 +2,4 @@
 
 ## What Huddle is about
 - Some text
- - some more text
+  - some more text
